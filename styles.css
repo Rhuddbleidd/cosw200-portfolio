@@ -218,15 +218,11 @@ footer svg {
 
 @media (max-width: 1060px) {
     .main {
-        inline-size: min-content;
-    }
-
-    .main {
-    width: 80%
+    width: 80%;
     }
 
     .footer {
-    width: 80%
+    width: 80%;
     }
 
     .grid-container {
