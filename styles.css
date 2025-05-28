@@ -36,7 +36,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     height: 100%;
-    min-width: 745px;
+    min-width: 665px;
 }
 
 header {
@@ -192,7 +192,7 @@ footer svg {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
-    min-width: 745px;
+    min-width: 665px;
 }
 
 #switch {
@@ -214,4 +214,31 @@ footer svg {
 .light-mode-border {
      border: rgb(0, 0, 0) solid 1.5px;
      border-radius: 5px;
+}
+
+@media (max-width: 1060px) {
+    /* .main {
+        inline-size: min-content;
+    } */
+
+    .main {
+    width: 80%
+    }
+
+    .footer {
+    width: 80%
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(1, 2fr);
+        justify-content: center;
+        justify-items: center;
+    }
+
+    .libraries-framework {
+        width: 50%;
+        margin: 20px 0;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
